@@ -3,5 +3,30 @@
     "home": "Página inicial",
     "contacts": "Contatos",
     "about": "Sobre"
+  },
+  "ContactCard": {
+    "editContact": "Editar Contato",
+    "questionDelete": "Tem certeza que deseja deletar?",
+    "deleteButton1": "Cancelar",
+    "deleteButton2": "Aceitar"
+  },
+  "homePage": {
+    "contacts": "Contatos"
+  },
+  "contactPage": {
+    "buttonNew": "Novo contato",
+    "buttonCloseDialog": "Fechar",
+    "buttonSaveDialog": "Salvar",
+    "userContact": "Contato do Usuario",
+    "name": "Nome",
+    "email": "Email",
+    "url": "Url Foto",
+    "contact": "Contato"
+  },
+  "contactDetail": {
+    "backButton": "Voltar",
+    "name": "Nome",
+    "email": "Email",
+    "contact": "Contato"
   }
 }
