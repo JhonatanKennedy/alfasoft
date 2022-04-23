@@ -1,0 +1,24 @@
+@import "@/global.scss";
+
+.details-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title i {
+  font-size: 2rem;
+  color: $color-font;
+}
+.title-button {
+  cursor: pointer;
+  width: 7%;
+}
+.body-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail-container {
+  width: 90%;
+}

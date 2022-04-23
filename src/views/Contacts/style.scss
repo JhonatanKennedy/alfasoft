@@ -1,0 +1,56 @@
+@import "@/global.scss";
+
+.crud-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-list {
+  width: 100%;
+}
+.title {
+  padding: 0.625rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-new {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  button {
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    background-color: $menu-color-font;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span {
+    color: $menu-color-font;
+  }
+}
+.dialog {
+  color: $color-font;
+}
+.custom-divider {
+  background-color: $color-divider;
+  width: 100%;
+}
+.teste .v-text-field__slot input {
+  color: white !important;
+}

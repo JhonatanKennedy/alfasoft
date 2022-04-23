@@ -1,0 +1,69 @@
+@import "@/global.scss";
+
+.nav-container {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-routes-container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.route-button {
+  width: 80%;
+  padding: 20px 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #15a4ad;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  span {
+    margin-left: 1rem;
+    color: $menu-color-font;
+  }
+  i {
+    color: $menu-color-font;
+    margin-left: 1rem;
+  }
+}
+.route-button:hover {
+  background-color: #222330;
+}
+.nav-lang-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  select {
+    background-color: $menu-color-font-hover;
+    color: $color-font;
+    width: 80%;
+    border: 20px;
+  }
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+}
+.active {
+  background-color: $menu-color-font;
+  span,
+  i {
+    color: $menu-color-font-hover !important;
+  }
+}
+.active:hover {
+  background-color: $menu-color-font;
+  span,
+  i {
+    color: $menu-color-font-hover;
+  }
+}

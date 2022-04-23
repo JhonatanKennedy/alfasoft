@@ -1,0 +1,32 @@
+{
+  "NavBar": {
+    "home": "Home",
+    "contacts": "Contacts",
+    "about": "About"
+  },
+  "ContactCard": {
+    "editContact": "Edit Contact",
+    "questionDelete": "Are you sure you want delete?",
+    "deleteButton1": "Disagree",
+    "deleteButton2": "Agree"
+  },
+  "homePage": {
+    "contacts": "Contacts"
+  },
+  "contactPage": {
+    "buttonNew": "New Contact",
+    "buttonCloseDialog": "Close",
+    "buttonSaveDialog": "Save",
+    "userContact": "User Contact",
+    "name": "Name",
+    "email": "Email",
+    "url": "Url Photo",
+    "contact": "Contact"
+  },
+  "contactDetail": {
+    "backButton": "Back",
+    "name": "Name",
+    "email": "Email",
+    "contact": "Contact"
+  }
+}
